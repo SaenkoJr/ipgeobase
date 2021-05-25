@@ -1,9 +1,13 @@
 AllCops:
   TargetRubyVersion: 2.7
+  NewCops: enable
 
 Style/FrozenStringLiteralComment:
   Enabled: true
   SafeAutoCorrect: true
+
+Style/Documentation:
+  Enabled: false
 
 Layout/LineLength:
   Max: 120

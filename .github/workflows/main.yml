@@ -12,5 +12,7 @@ jobs:
       with:
         ruby-version: 2.7.2
         bundler-cache: true
-    - name: Run the default task
-      run: bundle exec rake
+    - name: Run lint
+      run: make lint
+    - name: Run tests
+      run: make test
